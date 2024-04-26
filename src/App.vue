@@ -5,21 +5,67 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <div class="wrapper">
-      <HelloWorld msg="Lightning Apps" />
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <!-- <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg> -->
+          <img src="/public/favicon.ico" width="30rem">
+          <span class="fs-4">Lightning Apps</span>
+        </a>
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/apps">Apps</RouterLink>
-      </nav>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <RouterLink to="/" class="nav-link" aria-current="page">Home</RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink to="/about" class="nav-link">About</RouterLink>
+          </li>
+          <!-- <li class="nav-item">
+            <RouterLink to="/features" class="nav-link disabled">Features</RouterLink>
+          </li> -->
+          <!-- <li class="nav-item">
+            <RouterLink to="/pricing" class="nav-link disabled">Pricing</RouterLink>
+          </li> -->
+          <!-- <li class="nav-item">
+            <RouterLink to="/faq" class="nav-link">FAQs</RouterLink>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Apps
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <RouterLink class="dropdown-item" to="/university-wizard">University Wizard</RouterLink>
+              </li>
+              <li>
+                <RouterLink class="dropdown-item" to="/trick-counting">Trick Counting - Point Tracker
+                </RouterLink>
+              </li>
+              <li>
+                <RouterLink class="dropdown-item" to="/hlg-kaifu-app">HLG-KAIFU App</RouterLink>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <RouterLink to="/downloads" class="nav-link">Downloads</RouterLink>
+          </li>
+        </ul>
+      </header>
     </div>
   </header>
-
-  <RouterView />
+  <main>
+    <RouterView />
+  </main>
 </template>
 
 <style scoped>
+  main {
+    padding: 0rem 1rem;
+  }
+</style>
+<!-- <style scoped>
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -81,4 +127,4 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
-</style>
+</style> -->
