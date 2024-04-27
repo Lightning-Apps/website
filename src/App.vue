@@ -11,7 +11,7 @@ import HelloWorld from './components/HelloWorld.vue'
           <!-- <svg class="bi me-2" width="40" height="32">
             <use xlink:href="#bootstrap"></use>
           </svg> -->
-          <img src="/public/favicon.ico" width="30rem">
+          <img src="/favicon.ico" width="30rem">
           <span class="fs-4">Lightning Apps</span>
         </a>
 
@@ -20,7 +20,7 @@ import HelloWorld from './components/HelloWorld.vue'
             <RouterLink to="/" class="nav-link" aria-current="page">Home</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink to="/about" class="nav-link">About</RouterLink>
+            <RouterLink to="/news" class="nav-link">News</RouterLink>
           </li>
           <!-- <li class="nav-item">
             <RouterLink to="/features" class="nav-link disabled">Features</RouterLink>
@@ -49,8 +49,11 @@ import HelloWorld from './components/HelloWorld.vue'
             </ul>
           </li>
           <li class="nav-item">
-            <RouterLink to="/downloads" class="nav-link">Downloads</RouterLink>
+            <RouterLink to="/about" class="nav-link">About</RouterLink>
           </li>
+          <!-- <li class="nav-item">
+            <RouterLink to="/downloads" class="nav-link">Downloads</RouterLink>
+          </li> -->
         </ul>
       </header>
     </div>
