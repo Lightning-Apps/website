@@ -1,35 +1,22 @@
-import { RouterLink } from 'vue-router';
+<script setup>
+import appDatabase from '../../appDB.json';
+</script>
+
 <template>
   <div class="container-fluid">
-    <h1>Apps by Henry Krieger</h1>
+    <h1>Apps</h1>
     <div class="row">
-      <div class="col-lg-4 col-12">
-        <div class="card">
+      <div class="col-lg-4 col-12 mb-3" v-for="app in appDatabase">
+        <div class="card" v-if="app.status != 'hide'">
           <div class="card-body">
-            <h5 class="card-title">University Wizard</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <!-- <a href="#" class="btn btn-primary">Free</a> -->
-            <RouterLink class="btn btn-primary" to="/university-wizard">Free</RouterLink>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-12">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Trick Counting - Point Tracker</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <!-- <a href="#" class="btn btn-primary">4.99€</a> -->
-            <RouterLink class="btn btn-primary" to="/trick-counting">4.99€</RouterLink>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-12">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">HLG-KAIFU App</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <!-- <a href="#" class="btn btn-primary">Free</a> -->
-            <RouterLink class="btn btn-primary" to="/hlg-kaifu-app">Free</RouterLink>
+            <h5 class="card-title">{{ app.name }}</h5>
+            <p class="card-text">{{ app.description }}</p>
+            <div v-if="app.status == ''">
+              <RouterLink class="btn btn-primary" :to="app.page">{{ app.availability }}</RouterLink>
+            </div>
+            <div v-else-if="app.status == 'disabled'">
+              <RouterLink class="btn btn-primary disabled" :to="app.page">{{ app.availability }}</RouterLink>
+            </div>
           </div>
         </div>
       </div>
@@ -41,12 +28,13 @@ import { RouterLink } from 'vue-router';
   <div class="container-fluid">
     <h1>Projects</h1>
     <div class="row">
-      <div class="col">
+      <div class="col-12 mb-3">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Serenity</h5>
             <p class="card-text">A python script enabling the usage of OpenAIs Dall-E via the API</p>
-            <a class="btn btn-primary disabled" href="https://github.com/RealWarrior03/Serenity.git" target="_blank">Soon on GitHub</a>
+            <a class="btn btn-primary disabled" href="https://github.com/RealWarrior03/Serenity.git"
+              target="_blank">Soon on GitHub</a>
           </div>
         </div>
       </div>

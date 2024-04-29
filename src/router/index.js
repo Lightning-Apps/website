@@ -35,6 +35,16 @@ const router = createRouter({
       component: () => import('../views/AppView.vue')
     },
     {
+      path: '/roadhouse-finder',
+      name: 'roadhousefinder',
+      component: () => import('../views/RoadhouseFinder.vue')
+    },
+    {
+      path: '/replay',
+      name: 'replayapplemusic',
+      component: () => import('../views/Replay.vue')
+    },
+    {
       path: '/university-wizard',
       name: 'universitywizard',
       component: () => import('../views/UniversityWizard.vue')

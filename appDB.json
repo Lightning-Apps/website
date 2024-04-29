@@ -1,0 +1,52 @@
+[
+    {
+        "id": 0,
+        "name": "University Wizard",
+        "availability": "Free",
+        "status": "",
+        "description": "Manage your university life with ease.",
+        "iconPath": "../assets/universitywizard_icon.png",
+        "url": "https://apps.apple.com/de/app/university-wizard/id1598081147?l=en-GB",
+        "page": "/university-wizard"
+    },
+    {
+        "id": 1,
+        "name": "Trick Counting - Point Tracker",
+        "availability": "4.99€",
+        "status": "",
+        "description": "tbw",
+        "iconPath": "../assets/trickcounting_icon.png",
+        "url": "",
+        "page": "/trick-counting"
+    },
+    {
+        "id": 2,
+        "name": "HLG-KAIFU App",
+        "availability": "Free",
+        "status": "",
+        "description": "tbw",
+        "iconPath": "../assets/hlgkaifu_icon.png",
+        "url": "",
+        "page": "/hlg-kaifu-app"
+    },
+    {
+        "id": 3,
+        "name": "Roadhouse Finder",
+        "availability": "Launching 2025",
+        "status": "hide",
+        "description": "tbw",
+        "iconPath": "../assets/roadhousefinder_icon.png",
+        "url": "",
+        "page": "/roadhouse-finder"
+    },
+    {
+        "id": 4,
+        "name": "Replay (for Apple Music)",
+        "availability": "Launching 2027",
+        "status": "hide",
+        "description": "tbw",
+        "iconPath": "../assets/replay_icon.png",
+        "url": "",
+        "page": "/replay"
+    }
+]
