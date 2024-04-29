@@ -1,19 +1,17 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import appDatabase from '../appDB.json'
 </script>
 
 <template>
   <header>
-    <div class="container">
+    <div class="container-fluid">
       <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-          <!-- <svg class="bi me-2" width="40" height="32">
-            <use xlink:href="#bootstrap"></use>
-          </svg> -->
+        <RouterLink to="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
           <img src="/favicon.ico" width="30rem">
           <span class="fs-4">Lightning Apps</span>
-        </a>
+        </RouterLink>
 
         <ul class="nav nav-pills">
           <li class="nav-item">
@@ -36,16 +34,30 @@ import HelloWorld from './components/HelloWorld.vue'
               Apps
             </a>
             <ul class="dropdown-menu">
+              <div v-for="app in appDatabase">
+                <li v-if="app.status != 'hide'">
+                  <RouterLink class="dropdown-item disabled" :to="app.page" v-if="app.status == 'disabled'">{{ app.name
+                    }}</RouterLink>
+                  <RouterLink class="dropdown-item" :to="app.page" v-else="">{{ app.name }}</RouterLink>
+                </li>
+              </div>
+              <!-- <hr>
               <li>
                 <RouterLink class="dropdown-item" to="/university-wizard">University Wizard</RouterLink>
+              </li>
+              <li>
+                <RouterLink class="dropdown-item disabled" to="/roadhouse-finder">Roadhouse Finder</RouterLink>
               </li>
               <li>
                 <RouterLink class="dropdown-item" to="/trick-counting">Trick Counting - Point Tracker
                 </RouterLink>
               </li>
               <li>
-                <RouterLink class="dropdown-item" to="/hlg-kaifu-app">HLG-KAIFU App</RouterLink>
+                <RouterLink class="dropdown-item disabled" to="/replay">Replay (for Apple Music)</RouterLink>
               </li>
+              <li>
+                <RouterLink class="dropdown-item" to="/hlg-kaifu-app">HLG-KAIFU App</RouterLink>
+              </li> -->
             </ul>
           </li>
           <li class="nav-item">
@@ -64,9 +76,9 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style scoped>
-  main {
-    padding: 0rem 1rem;
-  }
+main {
+  padding: 0rem 1rem;
+}
 </style>
 <!-- <style scoped>
 header {
