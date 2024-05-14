@@ -6,8 +6,9 @@ import appDatabase from '../../appDB.json';
   <div class="container-fluid">
     <h1>Apps</h1>
     <div class="row">
-      <div class="col-lg-4 col-12 mb-3" v-for="app in appDatabase">
+      <div class="col-lg-4 col-sm-6 col-12 mb-3" v-for="app in appDatabase">
         <div class="card" v-if="app.status != 'hide'">
+          <img :src="app.iconPath" class="card-img-top" alt="app icon">
           <div class="card-body">
             <h5 class="card-title">{{ app.name }}</h5>
             <p class="card-text">{{ app.description }}</p>

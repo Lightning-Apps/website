@@ -18,17 +18,8 @@ import appDatabase from '../appDB.json'
             <RouterLink to="/" class="nav-link" aria-current="page">Home</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink to="/news" class="nav-link">News</RouterLink>
+            <RouterLink to="/news" class="nav-link disabled">News</RouterLink>
           </li>
-          <!-- <li class="nav-item">
-            <RouterLink to="/features" class="nav-link disabled">Features</RouterLink>
-          </li> -->
-          <!-- <li class="nav-item">
-            <RouterLink to="/pricing" class="nav-link disabled">Pricing</RouterLink>
-          </li> -->
-          <!-- <li class="nav-item">
-            <RouterLink to="/faq" class="nav-link">FAQs</RouterLink>
-          </li> -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Apps
@@ -41,31 +32,11 @@ import appDatabase from '../appDB.json'
                   <RouterLink class="dropdown-item" :to="app.page" v-else="">{{ app.name }}</RouterLink>
                 </li>
               </div>
-              <!-- <hr>
-              <li>
-                <RouterLink class="dropdown-item" to="/university-wizard">University Wizard</RouterLink>
-              </li>
-              <li>
-                <RouterLink class="dropdown-item disabled" to="/roadhouse-finder">Roadhouse Finder</RouterLink>
-              </li>
-              <li>
-                <RouterLink class="dropdown-item" to="/trick-counting">Trick Counting - Point Tracker
-                </RouterLink>
-              </li>
-              <li>
-                <RouterLink class="dropdown-item disabled" to="/replay">Replay (for Apple Music)</RouterLink>
-              </li>
-              <li>
-                <RouterLink class="dropdown-item" to="/hlg-kaifu-app">HLG-KAIFU App</RouterLink>
-              </li> -->
             </ul>
           </li>
           <li class="nav-item">
             <RouterLink to="/about" class="nav-link">About</RouterLink>
           </li>
-          <!-- <li class="nav-item">
-            <RouterLink to="/downloads" class="nav-link">Downloads</RouterLink>
-          </li> -->
         </ul>
       </header>
     </div>
