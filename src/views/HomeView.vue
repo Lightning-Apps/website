@@ -34,8 +34,12 @@ import appDatabase from '../../appDB.json';
           <div class="card-body">
             <h5 class="card-title">Serenity</h5>
             <p class="card-text">A python script enabling the usage of OpenAIs Dall-E via the API</p>
-            <a class="btn btn-primary disabled" href="https://github.com/RealWarrior03/Serenity.git"
-              target="_blank">Soon on GitHub</a>
+            <a class="btn btn-primary disabled" href="https://github.com/RealWarrior03/Serenity.git" target="_blank">Soon on GitHub</a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Equinox</h5>
+            <p class="card-text">A simple webpage for keeping an overview of your certificate expiry dates.</p>
+            <a class="btn btn-primary disabled" href="https://github.com/RealWarrior03/Equinox.git" target="_blank">Soon on GitHub</a>
           </div>
         </div>
       </div>
