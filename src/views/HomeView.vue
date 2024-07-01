@@ -38,7 +38,7 @@ import appDatabase from '../../appDB.json';
           </div>
           <div class="card-body">
             <h5 class="card-title">Equinox</h5>
-            <p class="card-text">tbw</p>
+            <p class="card-text">A simple webpage for keeping an overview of your certificate expiry dates.</p>
             <a class="btn btn-primary disabled" href="https://github.com/RealWarrior03/Equinox.git" target="_blank">Soon on GitHub</a>
           </div>
         </div>
