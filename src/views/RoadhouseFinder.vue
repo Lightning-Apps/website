@@ -1,5 +1,9 @@
 <template>
     <h1>Roadhouse Finder</h1>
+    <img src="/images/roadhousefinder_icon.png" class="appIcon">
+
+    <br><br>
+
     <div class="alert alert-info" role="alert">
         Launching 2025
     </div>
@@ -92,3 +96,11 @@
         </tbody>
     </table>
 </template>
+
+<style scoped>
+.appIcon {
+    border-radius: 16%;
+    width: 10%;
+    border: 1px solid gray;
+}
+</style>
