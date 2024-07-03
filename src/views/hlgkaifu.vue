@@ -2,7 +2,7 @@
     <h1>HLG-KAIFU App</h1>
     <img src="/images/hlgkaifu_icon.png" class="appIcon">
     <br><br>
-    <a href="https://apps.apple.com/de/app/hlg-kaifu-app/id1579248887?l=en-GB" target="_blank"><img src="../assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"></a>
+    <a href="https://apps.apple.com/de/app/hlg-kaifu-app/id1579248887?l=en-GB" target="_blank"><img src="/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"></a>
 </template>
 
 <style scoped>
