@@ -10,17 +10,54 @@ const router = createRouter({
       component: HomeView
     },
     {
+      path: "/downloads",
+      name: 'downloads',
+      component: () => import('../views/downloads.vue')
+    },
+    {
+      path: '/news',
+      name: 'news',
+      component: () => import('../views/news.vue')
+    },
+    {
       path: '/about',
       name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue')
+    },
+    {
+      path: '/faq',
+      name: 'faq',
+      component: () => import('../views/faq.vue')
     },
     {
       path: '/apps',
       name: 'apps',
       component: () => import('../views/AppView.vue')
+    },
+    {
+      path: '/roadhouse-finder',
+      name: 'roadhousefinder',
+      component: () => import('../views/RoadhouseFinder.vue')
+    },
+    {
+      path: '/replay',
+      name: 'replayapplemusic',
+      component: () => import('../views/Replay.vue')
+    },
+    {
+      path: '/university-wizard',
+      name: 'universitywizard',
+      component: () => import('../views/UniversityWizard.vue')
+    },
+    {
+      path: '/trick-counting',
+      name: 'trickcounting',
+      component: () => import('../views/TrickCounting.vue')
+    },
+    {
+      path: '/hlg-kaifu-app',
+      name: 'hlgkaifu',
+      component: () => import('../views/hlgkaifu.vue')
     }
   ]
 })

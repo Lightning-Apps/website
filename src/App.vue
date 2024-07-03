@@ -1,25 +1,56 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import appDatabase from '../src/backend/appDB.json'
 </script>
 
 <template>
   <header>
-    <div class="wrapper">
-      <HelloWorld msg="Lightning Apps" />
+    <div class="container-fluid">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <RouterLink to="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <img src="/favicon.ico" width="30rem">
+          <span class="fs-4">Lightning Apps</span>
+        </RouterLink>
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/apps">Apps</RouterLink>
-      </nav>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <RouterLink to="/" class="nav-link" aria-current="page">Home</RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink to="/news" class="nav-link disabled">News</RouterLink>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Apps
+            </a>
+            <ul class="dropdown-menu">
+              <div v-for="app in appDatabase">
+                <li v-if="app.status != 'hide'">
+                  <RouterLink class="dropdown-item disabled" :to="app.page" v-if="app.status == 'disabled'">{{ app.name }}</RouterLink>
+                  <RouterLink class="dropdown-item" :to="app.page" v-else="">{{ app.name }}</RouterLink>
+                </li>
+              </div>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <RouterLink to="/about" class="nav-link">About</RouterLink>
+          </li>
+        </ul>
+      </header>
     </div>
   </header>
-
-  <RouterView />
+  <main>
+    <RouterView />
+  </main>
 </template>
 
 <style scoped>
+main {
+  padding: 0rem 1rem;
+}
+</style>
+<!-- <style scoped>
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -81,4 +112,4 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
-</style>
+</style> -->

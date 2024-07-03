@@ -1,0 +1,18 @@
+[
+    {
+        "id": 0,
+        "name": "Serenity",
+        "description": "A python script enabling the usage of OpenAIs Dall-E via the API",
+        "url": "https://github.com/RealWarrior03/Serenity.git",
+        "availability": "Soon on GitHub",
+        "status": "disabled"
+    },
+    {
+        "id": 1,
+        "name": "Equinox",
+        "description": "A simple webpage for keeping an overview of your certificate expiry dates.",
+        "url": "https://github.com/RealWarrior03/Equinox.git",
+        "availability": "Soon on GitHub",
+        "status": "disabled"
+    }
+]
