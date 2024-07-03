@@ -5,7 +5,7 @@
         "availability": "Launching 2025",
         "status": "disabled",
         "description": "tbw",
-        "iconPath": "roadhousefinder_icon.png",
+        "iconPath": "../assets/roadhousefinder_icon.png",
         "url": "",
         "page": "/roadhouse-finder"
     },
@@ -15,7 +15,7 @@
         "availability": "Free",
         "status": "",
         "description": "Manage your university life with ease.",
-        "iconPath": "universitywizard_icon.png",
+        "iconPath": "../assets/universitywizard_icon.png",
         "url": "https://apps.apple.com/de/app/university-wizard/id1598081147?l=en-GB",
         "page": "/university-wizard"
     },
@@ -25,7 +25,7 @@
         "availability": "4.99€",
         "status": "",
         "description": "tbw",
-        "iconPath": "trickcounting_icon.png",
+        "iconPath": "../assets/trickcounting_icon.png",
         "url": "",
         "page": "/trick-counting"
     },
@@ -35,7 +35,7 @@
         "availability": "Free",
         "status": "",
         "description": "tbw",
-        "iconPath": "hlgkaifu_icon.png",
+        "iconPath": "../assets/hlgkaifu_icon.png",
         "url": "",
         "page": "/hlg-kaifu-app"
     },
@@ -45,7 +45,7 @@
         "availability": "Launching 2027",
         "status": "hide",
         "description": "tbw",
-        "iconPath": "../src/assets/replay_icon.png",
+        "iconPath": "../assets/replay_icon.png",
         "url": "",
         "page": "/replay"
     }
