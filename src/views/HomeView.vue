@@ -5,39 +5,30 @@ import projectDatabase from '../backend/projectDB.json';
 
 <template>
   <main>
-    <div class="container-fluid">
-      <h1>Apps</h1>
-      <div class="row">
-        <div class="col-lg-3 col-sm-4 col-12 mb-3" v-for="app in appDatabase">
-          <div class="card" v-if="app.status != 'hide'">
-            <img :src="app.iconPath" class="card-img-top" alt="app icon">
-            <div class="card-body">
-              <h5 class="card-title">{{ app.name }}</h5>
-              <p class="card-text">{{ app.description }}</p>
-              <div v-if="app.status == ''">
-                <RouterLink class="btn btn-primary" :to="app.page">{{ app.availability }}</RouterLink>
-              </div>
-              <div v-else-if="app.status == 'disabled'">
-                <RouterLink class="btn btn-primary disabled" :to="app.page">{{ app.availability }}</RouterLink>
-              </div>
+    <div class="container px-4 py-5" id="featured-apps">
+      <h2 class="pb-2 border-bottom">Apps</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="feature col mb-3" v-for="app in appDatabase">
+          <div v-if="app.status != 'hide'">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+              <img :src="app.iconPath" class="bi" width="70m" height="70em" style="border-radius: 16px;">
             </div>
+            <h3 class="fs-2 text-body-emphasis">{{ app.name }}</h3>
+            <p>{{ app.description }}</p>
+            <RouterLink class="btn btn-primary" :class="app.status" :to="app.page">{{ app.availability }}</RouterLink>
           </div>
         </div>
       </div>
     </div>
 
-    <br>
-
-    <div class="container-fluid">
-      <h1>Projects</h1>
-      <div class="row">
-        <div class="col-lg-6 col-12 mb-3" v-for="project in projectDatabase">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">{{ project.name }}</h5>
-              <p class="card-text">{{ project.description }}</p>
-              <a class="btn btn-primary" :class="project.status" :href="project.url" target="_blank">{{ project.availability }}</a>
-            </div>
+    <div class="container px-4 py-5" id="featured-projects">
+      <h2 class="pb-2 border-bottom">Projects</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+        <div class="feature col" v-for="project in projectDatabase">
+          <div v-if="project.status != 'hide'">
+            <h3 class="fs-2 text-body-emphasis">{{ project.name }}</h3>
+            <p>{{ project.description }}</p>
+            <RouterLink class="btn btn-primary" :class="project.status" :to="project.page">{{ project.availability }}</RouterLink>
           </div>
         </div>
       </div>
