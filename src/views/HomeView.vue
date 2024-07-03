@@ -10,7 +10,7 @@ import projectDatabase from '../backend/projectDB.json';
       <div class="row">
         <div class="col-lg-3 col-sm-4 col-12 mb-3" v-for="app in appDatabase">
           <div class="card" v-if="app.status != 'hide'">
-            <img :src="'../src/assets/' + app.iconPath" class="card-img-top" alt="app icon">
+            <img :src="app.iconPath" class="card-img-top" alt="app icon">
             <div class="card-body">
               <h5 class="card-title">{{ app.name }}</h5>
               <p class="card-text">{{ app.description }}</p>
