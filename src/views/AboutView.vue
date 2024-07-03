@@ -17,7 +17,7 @@ import { RouterLink } from 'vue-router';
       <div class="row">
         <div class="col-lg-3 col-6 mb-3">
           <div class="card">
-            <img src="../assets/henrykrieger.png">
+            <img src="/images/henrykrieger.png">
             <div class="card-body">
               <h5 class="card-title">Henry Krieger</h5>
               <p class="card-text">CEO</p>
