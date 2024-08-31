@@ -37,22 +37,10 @@ import appDatabase from '../backend/appDB.json';
         <!-- <h2 class="pb-2 border-bottom">Columns with icons</h2> -->
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
             <div class="feature col">
-                <div
-                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                    <svg class="bi" width="1em" height="1em">
-                        <use xlink:href="#collection"></use>
-                    </svg>
-                    <!-- <svg class="bi" width="32" height="32" fill="currentColor">
-                        <use xlink:href="bootstrap-icons.svg#heart-fill" />
-                    </svg>
-                    <svg class="bi" width="32" height="32" fill="currentColor">
-                        <use xlink:href="bootstrap-icons.svg#toggles" />
-                    </svg>
-                    <svg class="bi" width="32" height="32" fill="currentColor">
-                        <use xlink:href="bootstrap-icons.svg#shop" />
-                    </svg> -->
+                <div>
+                    <img src="/public/images/rhf_img1.png" class="col-6" style="border-radius: 16px;">
                 </div>
-                <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+                <h3 class="fs-2 text-body-emphasis">Detailed map</h3>
                 <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
                     and probably just keep going until we run out of words.</p>
                 <a href="#" class="icon-link">
@@ -63,13 +51,16 @@ import appDatabase from '../backend/appDB.json';
                 </a>
             </div>
             <div class="feature col">
-                <div
+                <!-- <div
                     class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
                     <svg class="bi" width="1em" height="1em">
                         <use xlink:href="#people-circle"></use>
                     </svg>
+                </div> -->
+                <div>
+                    <img src="/public/images/rhf_img2.png" class="col-6" style="border-radius: 16px;">
                 </div>
-                <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+                <h3 class="fs-2 text-body-emphasis">Searchable</h3>
                 <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
                     and probably just keep going until we run out of words.</p>
                 <a href="#" class="icon-link">
@@ -80,13 +71,16 @@ import appDatabase from '../backend/appDB.json';
                 </a>
             </div>
             <div class="feature col">
-                <div
+                <!-- <div
                     class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
                     <svg class="bi" width="1em" height="1em">
                         <use xlink:href="#toggles2"></use>
                     </svg>
+                </div> -->
+                <div>
+                    <img src="/public/images/rhf_img3.png" class="col-6" style="border-radius: 16px;">
                 </div>
-                <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+                <h3 class="fs-2 text-body-emphasis">Categorized</h3>
                 <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
                     and probably just keep going until we run out of words.</p>
                 <a href="#" class="icon-link">
