@@ -2,8 +2,8 @@
     {
         "id": 0,
         "name": "Roadhouse Finder",
-        "availability": "Launching 2025",
-        "status": "disabled",
+        "availability": "Launching soon",
+        "status": "",
         "description": "tbw",
         "iconPath": "/images/roadhousefinder_icon.png",
         "url": "",
@@ -12,7 +12,7 @@
     {
         "id": 1,
         "name": "University Wizard",
-        "availability": "Free",
+        "availability": "Download",
         "status": "",
         "description": "Manage your university life with ease.",
         "iconPath": "/images/universitywizard_icon.png",
@@ -21,20 +21,20 @@
     },
     {
         "id": 2,
-        "name": "Trick Counting - Point Tracker",
+        "name": "Trick Counting",
         "availability": "4.99€",
         "status": "",
-        "description": "tbw",
+        "description": "No more need for pen and paper to play Trick Counting",
         "iconPath": "/images/trickcounting_icon.png",
-        "url": "",
+        "url": "https://apps.apple.com/de/app/trick-counting-point-tracker/id1604458593?l=en-GB",
         "page": "/trick-counting"
     },
     {
         "id": 3,
         "name": "HLG-KAIFU App",
-        "availability": "Free",
+        "availability": "Deprecated",
         "status": "",
-        "description": "tbw",
+        "description": "The app for HLG and KaiFU in Hamburg, Germany",
         "iconPath": "/images/hlgkaifu_icon.png",
         "url": "",
         "page": "/hlg-kaifu-app"
