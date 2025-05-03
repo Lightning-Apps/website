@@ -16,5 +16,23 @@
         "availability": "Soon on GitHub",
         "status": "disabled",
         "icon": ""
+    },
+    {
+        "id": 2,
+        "name": "Fortbildungen-rewritten",
+        "description": "A comprehensive webpage for managing trainings at your company.",
+        "url": "https://github.com/RealWarrior03/fortbildungen-rewritten.git",
+        "availability": "Soon on GitHub",
+        "status": "disabled",
+        "icon": ""
+    },
+    {
+        "id": 3,
+        "name": "ArduDice",
+        "description": "The open-source Arduino-based digital dice",
+        "url": "https://github.com/RealWarrior03/ArduDice.git",
+        "availability": "View on GitHub",
+        "status": "",
+        "icon": ""
     }
 ]

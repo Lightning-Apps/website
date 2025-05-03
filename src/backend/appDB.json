@@ -2,8 +2,8 @@
     {
         "id": 0,
         "name": "Roadhouse Finder",
-        "availability": "Launching 2025",
-        "status": "disabled",
+        "availability": "Launching soon",
+        "status": "",
         "description": "tbw",
         "iconPath": "/images/roadhousefinder_icon.png",
         "url": "",
@@ -26,13 +26,13 @@
         "status": "",
         "description": "No more need for pen and paper to play Trick Counting",
         "iconPath": "/images/trickcounting_icon.png",
-        "url": "",
+        "url": "https://apps.apple.com/de/app/trick-counting-point-tracker/id1604458593?l=en-GB",
         "page": "/trick-counting"
     },
     {
         "id": 3,
         "name": "HLG-KAIFU App",
-        "availability": "Download",
+        "availability": "Deprecated",
         "status": "",
         "description": "The app for HLG and KaiFU in Hamburg, Germany",
         "iconPath": "/images/hlgkaifu_icon.png",

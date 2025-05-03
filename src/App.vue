@@ -27,8 +27,7 @@ import appDatabase from '../src/backend/appDB.json'
             <ul class="dropdown-menu">
               <div v-for="app in appDatabase">
                 <li v-if="app.status != 'hide'">
-                  <RouterLink class="dropdown-item disabled" :to="app.page" v-if="app.status == 'disabled'">{{ app.name }}</RouterLink>
-                  <RouterLink class="dropdown-item" :to="app.page" v-else="">{{ app.name }}</RouterLink>
+                  <RouterLink class="dropdown-item" :class="app.status" :to="app.page">{{ app.name }}</RouterLink>
                 </li>
               </div>
             </ul>

@@ -11,12 +11,13 @@ import appDatabase from '../backend/appDB.json';
 
 
     <div class="px-4 py-5 my-5 text-center">
-        <img class="d-block mx-auto mb-4" src="/public/images/roadhousefinder_icon.png" alt="app icon" width="72" height="72" style="border-radius: 16px;">
-        <h1 class="display-5 fw-bold text-body-emphasis">Roadhouse Finder</h1>
+        <img class="d-block mx-auto mb-4" :src="appDatabase.find(entry => entry.id === 0).iconPath" alt="app icon" width="72" height="72" style="border-radius: 16px;">
+        <h1 class="display-5 fw-bold text-body-emphasis">{{ appDatabase.find(entry => entry.id === 0).name }}</h1>
         <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s
+            <!-- <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s
                 most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
-                extensive prebuilt components, and powerful JavaScript plugins.</p>
+                extensive prebuilt components, and powerful JavaScript plugins.</p> -->
+            <p class="lead mb-4">An all new app that helps you quickly discover restaurants, gas stations, cafés, and more on German highways.</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                 <button type="button" class="btn btn-primary btn-lg px-4 gap-3 disabled">Launching 2025</button>
                 <button type="button" class="btn btn-outline-secondary btn-lg px-4 disabled">TestFlight</button>
@@ -38,17 +39,16 @@ import appDatabase from '../backend/appDB.json';
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
             <div class="feature col">
                 <div>
-                    <img src="/public/images/rhf_img1.png" class="col-6" style="border-radius: 16px;">
+                    <img src="/images/rhf_img1.png" class="col-6" style="border-radius: 16px;">
                 </div>
-                <h3 class="fs-2 text-body-emphasis">Detailed map</h3>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
-                    and probably just keep going until we run out of words.</p>
-                <a href="#" class="icon-link">
+                <h3 class="fs-2 text-body-emphasis mt-2">Detailed map</h3>
+                <p>Instantly view all roadhouses across Germany on an interactive map, complete with markers for easy navigation and discovery.</p>
+                <!-- <a href="#" class="icon-link">
                     Call to action
                     <svg class="bi">
                         <use xlink:href="#chevron-right"></use>
                     </svg>
-                </a>
+                </a> -->
             </div>
             <div class="feature col">
                 <!-- <div
@@ -58,17 +58,16 @@ import appDatabase from '../backend/appDB.json';
                     </svg>
                 </div> -->
                 <div>
-                    <img src="/public/images/rhf_img2.png" class="col-6" style="border-radius: 16px;">
+                    <img src="/images/rhf_img2.png" class="col-6" style="border-radius: 16px;">
                 </div>
-                <h3 class="fs-2 text-body-emphasis">Searchable</h3>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
-                    and probably just keep going until we run out of words.</p>
-                <a href="#" class="icon-link">
+                <h3 class="fs-2 text-body-emphasis mt-2">Searchable</h3>
+                <p>Quickly find specific roadhouses or services with the built-in search function — no more endless scrolling or guessing.</p>
+                <!-- <a href="#" class="icon-link">
                     Call to action
                     <svg class="bi">
                         <use xlink:href="#chevron-right"></use>
                     </svg>
-                </a>
+                </a> -->
             </div>
             <div class="feature col">
                 <!-- <div
@@ -78,17 +77,16 @@ import appDatabase from '../backend/appDB.json';
                     </svg>
                 </div> -->
                 <div>
-                    <img src="/public/images/rhf_img3.png" class="col-6" style="border-radius: 16px;">
+                    <img src="/images/rhf_img3.png" class="col-6" style="border-radius: 16px;">
                 </div>
-                <h3 class="fs-2 text-body-emphasis">Categorized</h3>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
-                    and probably just keep going until we run out of words.</p>
-                <a href="#" class="icon-link">
+                <h3 class="fs-2 text-body-emphasis mt-2">Categorized</h3>
+                <p>Browse roadhouses by highway to narrow down your search and plan your stops with precision based on your route.</p>
+                <!-- <a href="#" class="icon-link">
                     Call to action
                     <svg class="bi">
                         <use xlink:href="#chevron-right"></use>
                     </svg>
-                </a>
+                </a> -->
             </div>
         </div>
     </div>
@@ -121,8 +119,7 @@ import appDatabase from '../backend/appDB.json';
                 But one thing is missing: knowing whats where. You may find a desired café on Maps, but that mostly just
                 works for a specific search.
                 Roadhouse Finder fixes exactly that problem. It's a map focussed on the German roadhouses and lets you
-                find
-                what you're looking for quickly.
+                find what you're looking for quickly.
             </p>
         </div>
     </div>
@@ -134,7 +131,7 @@ import appDatabase from '../backend/appDB.json';
             <h4>When will it be available?</h4>
             <p>
                 At the moment, the progress on the app is slower than anticipated.
-                I currently aim to release in Spring 2025, more on that in the future.
+                We currently aim to release in Fall 2025, more on that in the future.
             </p>
         </div>
     </div>
@@ -183,7 +180,8 @@ import appDatabase from '../backend/appDB.json';
     <div class="px-2 py-3 my-3">
         <div class="col-lg-6 mx-auto">
             <h4>Subscriptions</h4>
-            <table class="table table-light table-hover">
+            <p>Details regarding our subscriptions are following at a later point of time.</p>
+            <!-- <table class="table table-light table-hover">
                 <thead>
                     <tr>
                         <th scope="row">Duration</th>
@@ -208,7 +206,7 @@ import appDatabase from '../backend/appDB.json';
                         <td>34.99€</td>
                     </tr>
                 </tbody>
-            </table>
+            </table> -->
         </div>
     </div>
 
