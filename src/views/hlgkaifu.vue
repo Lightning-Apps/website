@@ -39,9 +39,12 @@ import appDatabase from '../backend/appDB.json';
         <div class="col-lg-6 mx-auto">
             <h4>What is it?</h4>
             <p>
-                Trick Counting - Point Tracker is a digital companion designed to streamline the scoring process for the card game Trick Counting.
+                HLG-KAIFU App is a digital companion for everything regarding high school at HLG or KaiFU.
+                Starting with the latest news from the websites to stay informed. Continuing with calculators for both school certificates as well as your high school diploma.
+                Furthermore, the app offers a homework tracker so you won't forget any homework as it even reminds you in advance.
+                <!--Trick Counting - Point Tracker is a digital companion designed to streamline the scoring process for the card game Trick Counting.
                 Eliminating the need for paper and pencil, the app allows you to input the predictions and results for each round directly on your device.
-                At the game's conclusion, it provides a comprehensive summary, detailing each player's placements and round-by-round performance.
+                At the game's conclusion, it provides a comprehensive summary, detailing each player's placements and round-by-round performance.-->
                 <!-- This tool enhances the gaming experience by offering an organized and efficient way to manage scores. -->
             </p>
         </div>
