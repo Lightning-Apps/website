@@ -13,19 +13,21 @@ import { RouterLink } from 'vue-router';
     <br>
 
     <h2>Team</h2>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-3 col-6 mb-3">
-          <div class="card">
-            <img src="/images/henrykrieger.png">
-            <div class="card-body">
-              <h5 class="card-title">Henry Krieger</h5>
-              <p class="card-text">CEO</p>
+    <RouterLink to="" class="list-group-item list-group-item-action">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-6 mb-3">
+            <div class="card">
+              <img src="/images/henrykrieger.png">
+              <div class="card-body">
+                <h5 class="card-title">Henry Krieger</h5>
+                <!-- <p class="card-text">CEO</p> -->
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </RouterLink>
     <!-- <img src="../assets/henrykrieger.png" class="rounded">
     <div class="list-group">
       <RouterLink to="" class="list-group-item list-group-item-action">Henry Krieger</RouterLink>
