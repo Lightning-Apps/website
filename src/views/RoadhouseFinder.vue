@@ -19,7 +19,7 @@ import appDatabase from '../backend/appDB.json';
                 extensive prebuilt components, and powerful JavaScript plugins.</p> -->
             <p class="lead mb-4">An all new app that helps you quickly discover restaurants, gas stations, cafés, and more on German highways.</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <button type="button" class="btn btn-primary btn-lg px-4 gap-3 disabled">Launching 2025</button>
+                <button type="button" class="btn btn-primary btn-lg px-4 gap-3 disabled">Launching 2026</button>
                 <button type="button" class="btn btn-outline-secondary btn-lg px-4 disabled">TestFlight</button>
 
                 <!-- <button type="button" class="btn btn-lg px-4">

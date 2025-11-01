@@ -14,7 +14,7 @@ import appDatabase from '../backend/appDB.json';
         <img class="d-block mx-auto mb-4" :src="appDatabase.find(entry => entry.id === 2).iconPath" alt="app icon" width="72" height="72" style="border-radius: 16px;">
         <h1 class="display-5 fw-bold text-body-emphasis">{{ appDatabase.find(entry => entry.id === 2).name }}</h1>
         <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">Manage your university life with ease.</p>
+            <p class="lead mb-4">Digital companion for Trick Counting.</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                 <a :href="appDatabase.find(entry => entry.id === 2).url" target="_blank">
                     <button type="button" class="btn btn-primary btn-lg px-4 gap-3">App Store</button>

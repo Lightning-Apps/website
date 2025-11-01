@@ -9,41 +9,41 @@ const router = createRouter({
       name: 'home',
       component: HomeView
     },
-    {
-      path: "/downloads",
-      name: 'downloads',
-      component: () => import('../views/downloads.vue')
-    },
-    {
-      path: '/news',
-      name: 'news',
-      component: () => import('../views/news.vue')
-    },
+    // {
+    //   path: "/downloads",
+    //   name: 'downloads',
+    //   component: () => import('../views/downloads.vue')
+    // },
+    // {
+    //   path: '/news',
+    //   name: 'news',
+    //   component: () => import('../views/news.vue')
+    // },
     {
       path: '/about',
       name: 'about',
       component: () => import('../views/AboutView.vue')
     },
-    {
-      path: '/faq',
-      name: 'faq',
-      component: () => import('../views/faq.vue')
-    },
-    {
-      path: '/apps',
-      name: 'apps',
-      component: () => import('../views/AppView.vue')
-    },
+    // {
+    //   path: '/faq',
+    //   name: 'faq',
+    //   component: () => import('../views/faq.vue')
+    // },
+    // {
+    //   path: '/apps',
+    //   name: 'apps',
+    //   component: () => import('../views/AppView.vue')
+    // },
     {
       path: '/roadhouse-finder',
       name: 'roadhousefinder',
       component: () => import('../views/RoadhouseFinder.vue')
     },
-    {
-      path: '/replay',
-      name: 'replayapplemusic',
-      component: () => import('../views/Replay.vue')
-    },
+    // {
+    //   path: '/replay',
+    //   name: 'replayapplemusic',
+    //   component: () => import('../views/Replay.vue')
+    // },
     {
       path: '/university-wizard',
       name: 'universitywizard',
@@ -58,7 +58,12 @@ const router = createRouter({
       path: '/hlg-kaifu-app',
       name: 'hlgkaifu',
       component: () => import('../views/hlgkaifu.vue')
-    }
+    },
+    // {
+    //   path: '/about/henrykrieger',
+    //   name: 'henrykrieger',
+    //   component: () => import('../views/HenryKrieger.vue')
+    // }
   ]
 })
 
