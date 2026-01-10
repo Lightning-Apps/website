@@ -2,7 +2,7 @@
     {
         "id": 0,
         "name": "Roadhouse Finder",
-        "availability": "Launching soon",
+        "availability": "Fall 2026",
         "status": "",
         "description": "Your highway buddy",
         "iconPath": "/images/roadhousefinder_icon.png",
@@ -30,17 +30,27 @@
         "page": "/trick-counting"
     },
     {
-        "id": 3,
+        "id": 4,
+        "name": "Spoolman Companion",
+        "availability": "Spring 2026",
+        "status": "",
+        "description": "Manage your filament inventory",
+        "iconPath": "/images/spoolmancompanion_icon.png",
+        "url": "",
+        "page": "/spoolman-companion"
+    },
+    {
+        "id": 998,
         "name": "HLG-KAIFU App",
         "availability": "Deprecated",
-        "status": "",
+        "status": "archive",
         "description": "The app for HLG and KaiFU in Hamburg, Germany",
         "iconPath": "/images/hlgkaifu_icon.png",
         "url": "",
         "page": "/hlg-kaifu-app"
     },
     {
-        "id": 4,
+        "id": 999,
         "name": "Replay (for Apple Music)",
         "availability": "Launching 2027",
         "status": "hide",
