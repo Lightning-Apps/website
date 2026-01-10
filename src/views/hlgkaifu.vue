@@ -11,8 +11,8 @@ import appDatabase from '../backend/appDB.json';
 
 
     <div class="px-4 py-5 my-5 text-center">
-        <img class="d-block mx-auto mb-4" :src="appDatabase.find(entry => entry.id === 3).iconPath" alt="app icon" width="72" height="72" style="border-radius: 16px;">
-        <h1 class="display-5 fw-bold text-body-emphasis">{{ appDatabase.find(entry => entry.id === 3).name }}</h1>
+        <img class="d-block mx-auto mb-4" :src="appDatabase.find(entry => entry.id === 998).iconPath" alt="app icon" width="72" height="72" style="border-radius: 16px;">
+        <h1 class="display-5 fw-bold text-body-emphasis">{{ appDatabase.find(entry => entry.id === 998).name }}</h1>
         <div class="col-lg-6 mx-auto">
             <p class="lead mb-4">Everything regarding HLG and KaiFU.</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
@@ -94,20 +94,6 @@ import appDatabase from '../backend/appDB.json';
                     </tr>
                 </tbody>
             </table>
-        </div>
-    </div>
-
-
-
-    <div class="px-2 py-3 my-3">
-        <div class="col-lg-6 mx-auto">
-            <h4>Subscriptions</h4>
-            <p>
-                This app is useable with a one-time purchase and will always be, enjoy!
-                <br>
-                Thank you to everybody who purchased the app for supporting me!!
-                I appreciate it very much!
-            </p>
         </div>
     </div>
 </template>

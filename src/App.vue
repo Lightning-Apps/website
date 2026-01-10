@@ -17,21 +17,32 @@ import appDatabase from '../src/backend/appDB.json'
           <li class="nav-item">
             <RouterLink to="/" class="nav-link" aria-current="page">Home</RouterLink>
           </li>
-          <li class="nav-item">
+
+          <!-- <li class="nav-item">
             <RouterLink to="/news" class="nav-link disabled">News</RouterLink>
-          </li>
+          </li> -->
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Apps
             </a>
             <ul class="dropdown-menu">
+              <h6 class="dropdown-header">Apps</h6>
               <div v-for="app in appDatabase">
-                <li v-if="app.status != 'hide'">
+                <li v-if="app.status != 'hide' && app.status != 'archive'">
+                  <RouterLink class="dropdown-item" :class="app.status" :to="app.page">{{ app.name }}</RouterLink>
+                </li>
+              </div>
+              <div class="dropdown-divider"></div>
+              <h6 class="dropdown-header">Archive</h6>
+              <div v-for="app in appDatabase">
+                <li v-if="app.status == 'archive'">
                   <RouterLink class="dropdown-item" :class="app.status" :to="app.page">{{ app.name }}</RouterLink>
                 </li>
               </div>
             </ul>
           </li>
+
           <li class="nav-item">
             <RouterLink to="/about" class="nav-link">About</RouterLink>
           </li>

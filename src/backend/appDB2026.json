@@ -1,0 +1,206 @@
+[
+    {
+        "page": "roadhouse-finder",
+        "status": "",
+        "iconPath": "/images/roadhousefinder_icon.png",
+        "url": "",
+        "name": "Roadhouse Finder",
+        "subheadline": "Your highway buddy",
+        "description": "An all new app that helps you quickly discover restaurants, gas stations, cafés, and more on German highways.",
+        "availability": "Fall 2026",
+        "images": [
+            {
+                "path": "/images/rhf_img1.png",
+                "title": "Detailed map",
+                "description": "Instantly view all roadhouses across Germany on an interactive map, complete with markers for easy navigation and discovery."
+            },
+            {
+                "path": "/images/rhf_img2.png",
+                "title": "Searchable",
+                "description": "Quickly find specific roadhouses or services with the built-in search function — no more endless scrolling or guessing."
+            },
+            {
+                "path": "/images/rhf_img3.png",
+                "title": "Categorized",
+                "description": "Browse roadhouses by highway to narrow down your search and plan your stops with precision based on your route."
+            }
+        ],
+        "introduction": "Roadhouse Finder is my all new app made for German highways. The idea: There are quite many roadhouses located at several highways with all kinds of restaurants, gas stations, cafés and more. But one thing is missing: knowing whats where. You may find a desired café on Maps, but that mostly just works for a specific search. Roadhouse Finder fixes exactly that problem. It's a map focussed on the German roadhouses and lets you find what you're looking for quickly.",
+        "launchInfo": "At the moment, the progress on the app is slower than anticipated. \n We currently aim to release in Fall 2026, more on that in the future.",
+        "platforms": [
+            {
+                "platform": "iOS",
+                "state": "under construction",
+                "date": "2026"
+            },
+            {
+                "platform": "iPadOS",
+                "state": "planned",
+                "date": "tba"
+            },
+            {
+                "platform": "macOS",
+                "state": "planned",
+                "date": "tba"
+            },
+            {
+                "platform": "visionOS",
+                "state": "planned",
+                "date": "tba"
+            }
+        ],
+        "subscriptions": [],
+        "subscriptionInfo": "Details regarding the subscription are following at a later point of time."
+    },
+    {
+        "page": "university-wizard",
+        "status": "",
+        "iconPath": "/images/universitywizard_icon.png",
+        "url": "https://apps.apple.com/de/app/university-wizard/id1598081147?l=en-GB",
+        "name": "University Wizard",
+        "subheadline": "Manage your university life with ease.",
+        "description": "Manage your university life with ease.",
+        "availability": "Download",
+        "images": [
+            {
+                "path": "/images/uw_img1.png",
+                "title": "Dashboard",
+                "description": "All your essential university tools, links, and upcoming tasks in one central place — always up to date."
+            },
+            {
+                "path": "/images/uw_img2.png",
+                "title": "Schedule",
+                "description": "Stay organized with a clear weekly view of your lectures and easily manage your academic timetable."
+            },
+            {
+                "path": "/images/uw_img3.png",
+                "title": "Assignments & exams",
+                "description": "Track homework and exam deadlines at a glance so you never miss an important date again."
+            }
+        ],
+        "introduction": "University Wizard is <b>your</b> assistant for managing university with ease. Keep track of your assignments as well as your exams. Notifications remind you before an assignment has to be submitted.<br><br><b>NEW: with schedule you won't forget any lesson because the app remembers all lectures for you.</b>",
+        "launchInfo": "Right now on the iOS App Store!",
+        "platforms": [
+            {
+                "platform": "iOS",
+                "state": "available",
+                "date": "2022"
+            }
+        ],
+        "subscriptions": [],
+        "subscriptionInfo": "University Wizard is completely free to use and does not require any subscriptions."
+    },
+    {
+        "page": "trick-counting",
+        "status": "",
+        "iconPath": "/images/trickcounting_icon.png",
+        "url": "https://apps.apple.com/de/app/trick-counting-point-tracker/id1604458593?l=en-GB",
+        "name": "Trick Counting",
+        "subheadline": "Digital companion for Trick Counting.",
+        "description": "No more need for pen and paper to play Trick Counting",
+        "availability": "4.99€",
+        "images": [
+            {
+                "path": "/images/tc_img1.png",
+                "title": "Easy to use",
+                "description": "Effortlessly track each round of your game with a clean interface and intuitive flow — no learning curve needed."
+            },
+            {
+                "path": "/images/tc_img2.png",
+                "title": "Fully customizable",
+                "description": "Add players, update scores, and control each round the way you play — flexibility built into every detail."
+            },
+            {
+                "path": "/images/tc_img3.png",
+                "title": "Statistics",
+                "description": "View detailed summaries and visual charts to see who’s winning and how the game evolved over time."
+            }
+        ],
+        "introduction": "Trick Counting - Point Tracker is a digital companion designed to streamline the scoring process for the card game Trick Counting. Eliminating the need for paper and pencil, the app allows you to input the predictions and results for each round directly on your device. At the game's conclusion, it provides a comprehensive summary, detailing each player's placements and round-by-round performance.",
+        "launchInfo": "Right now on the iOS App Store!",
+        "platforms": [
+            {
+                "platform": "iOS",
+                "state": "available",
+                "date": "2022"
+            },
+            {
+                "platform": "iPadOS",
+                "state": "available",
+                "date": "2023"
+            }
+        ],
+        "subscriptions": [],
+        "subscriptionInfo": "This app is useable with a one-time purchase and will always be, enjoy! Thank you to everybody who purchased the app for supporting me!! I appreciate it very much!"
+    },
+    {
+        "page": "spoolman-companion",
+        "status": "",
+        "iconPath": "/images/spoolmancompanion_icon.png",
+        "url": "",
+        "name": "Spoolman Companion",
+        "subheadline": "Manage your filament inventory",
+        "description": "Manage your filament inventory",
+        "availability": "Spring 2026",
+        "images": [
+            {
+                "path": "",
+                "title": "",
+                "description": ""
+            },
+            {
+                "path": "",
+                "title": "",
+                "description": ""
+            },
+            {
+                "path": "",
+                "title": "",
+                "description": ""
+            }
+        ],
+        "introduction": "",
+        "launchInfo": "",
+        "platforms": [
+            {
+                "platform": "iOS",
+                "state": "under construction",
+                "date": "Spring 2026"
+            },
+            {
+                "platform": "iPadOS",
+                "state": "planned",
+                "date": "tba"
+            }
+        ],
+        "subscriptions": [],
+        "subscriptionInfo": "This app is useable with a one-time purchase and will always be, enjoy! Thank you to everybody who purchased the app for supporting me!! I appreciate it very much!"
+    },
+    {
+        "page": "hlg-kaifu-app",
+        "status": "archive",
+        "iconPath": "/images/hlgkaifu_icon.png",
+        "url": "",
+        "name": "HLG-KAIFU App",
+        "subheadline": "The app for HLG and KaiFU in Hamburg, Germany",
+        "description": "The app for HLG and KaiFU in Hamburg, Germany",
+        "availability": "Deprecated",
+        "images": [],
+        "introduction": "HLG-KAIFU App is a digital companion for everything regarding high school at HLG or KaiFU. Starting with the latest news from the websites to stay informed. Continuing with calculators for both school certificates as well as your high school diploma. Furthermore, the app offers a homework tracker so you won't forget any homework as it even reminds you in advance.",
+        "launchInfo": "The app was available on the App Store between August 2021 and December 2024.<br>However, due to lack of maintenance, the app was flagged to be taken down by Apple. Over the years, our focus has shifted and therefor we have decided to <b>not</b> update the app.<br><br><b>A big thank you to everybody, who used the app over the years! We hope it helped you during your time at school.</b><br>For everybody who is interested in alternatives, I can highly recommend my other app University Wizard</b>",
+        "platforms": [
+            {
+                "platform": "iOS",
+                "state": "launched",
+                "date": "2022"
+            },
+            {
+                "platform": "iPadOS",
+                "state": "launched",
+                "date": "2023"
+            }
+        ],
+        "subscriptions": [],
+        "subscriptionInfo": "hide"
+    }
+]
