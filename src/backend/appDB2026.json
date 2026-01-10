@@ -142,39 +142,12 @@
         "subheadline": "Manage your filament inventory",
         "description": "Manage your filament inventory",
         "availability": "Spring 2026",
-        "images": [
-            {
-                "path": "",
-                "title": "",
-                "description": ""
-            },
-            {
-                "path": "",
-                "title": "",
-                "description": ""
-            },
-            {
-                "path": "",
-                "title": "",
-                "description": ""
-            }
-        ],
+        "images": [],
         "introduction": "",
         "launchInfo": "",
-        "platforms": [
-            {
-                "platform": "iOS",
-                "state": "under construction",
-                "date": "Spring 2026"
-            },
-            {
-                "platform": "iPadOS",
-                "state": "planned",
-                "date": "tba"
-            }
-        ],
+        "platforms": [],
         "subscriptions": [],
-        "subscriptionInfo": "This app is useable with a one-time purchase and will always be, enjoy! Thank you to everybody who purchased the app for supporting me!! I appreciate it very much!"
+        "subscriptionInfo": "hide"
     },
     {
         "page": "hlg-kaifu-app",

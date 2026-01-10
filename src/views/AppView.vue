@@ -66,7 +66,7 @@ const app = computed(() => {
 
 
 
-    <div v-if="app.platforms != []" class="px-2 py-3 my-3">
+    <div v-if="app.platforms.length" class="px-2 py-3 my-3">
         <div class="col-lg-6 mx-auto">
             <h4>Supported platforms</h4>
             <table class="table table-light table-hover">
